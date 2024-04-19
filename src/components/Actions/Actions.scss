@@ -1,0 +1,18 @@
+.actions {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 15px;
+
+    .action {
+        cursor: pointer;
+    }
+
+    i {
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+}

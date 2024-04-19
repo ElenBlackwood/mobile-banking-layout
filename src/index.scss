@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 :root {
   --active: #DCD4FF;
   --black: #121212;
@@ -10,10 +11,10 @@
   --gradient_grey: linear-gradient(to bottom, #5E5A5A, #636363, #BEC7D7);
   --gradient: linear-gradient(to bottom, #614AD3, #E42C64);
   --gradient_body: linear-gradient(to right bottom, #DCFFC0, #C0FFFB);
-  --gradient_text: linear-gradient(45deg, #FFC1D4, #AB9AFF);
+  --gradient_text: linear-gradient(45deg, #FFC1D4, #AB9AFF); 
 }
 
-*, *::after, *::before {
+*, *::after, *::before {  
   margin: 0;
   padding: 0;
 }
@@ -28,4 +29,4 @@ body {
   font-weight: 400;
   font-style: normal;
   background: var(--gradient_body);
-}/*# sourceMappingURL=index.css.map */
+}

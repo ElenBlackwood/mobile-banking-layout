@@ -1,0 +1,15 @@
+.actions {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 15px;
+}
+.actions .action {
+  cursor: pointer;
+}
+.actions i {
+  font-size: 22px;
+}
+.actions span {
+  font-size: 11px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=Actions.css.map */

@@ -1,0 +1,50 @@
+.circle-stats {
+  --size: 135px;
+  width: var(--size);
+  height: var(--size);
+  position: relative;
+  margin-bottom: 20px;
+}
+.circle-stats__circle {
+  --size: 135px;
+  width: var(--size);
+  height: var(--size);
+  position: relative;
+  margin-bottom: 20px;
+}
+.circle-stats svg {
+  fill: transparent;
+}
+.circle-stats svg circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  transition: ease-in-out 0.3s;
+}
+.circle-stats svg circle:first-of-type {
+  stroke: var(--grey);
+  opacity: 0.2;
+}
+.circle-stats svg .circle-stats__circle-disabled {
+  stroke: url(#grey);
+}
+.circle-stats svg .circle-stats__circle-primary {
+  stroke: url(#primary);
+}
+.circle-stats__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 500;
+}
+.circle-stats__content.disabled {
+  opacity: 0.5;
+}
+.circle-stats__label {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}/*# sourceMappingURL=CircleStatistic.css.map */

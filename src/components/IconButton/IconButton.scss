@@ -1,0 +1,15 @@
+.icon-btn {
+    --size: 45px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: var(--size);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient);
+    cursor: pointer;
+
+    i {
+        font-size: 25px;
+    }
+}

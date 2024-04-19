@@ -1,0 +1,30 @@
+.balance-card {
+  position: relative;
+  padding: 40px 25px;
+  width: 315px;
+  height: 220px;
+  background: url("../../img/balance-img.png") center/contain no-repeat;
+  color: var(--dark);
+}
+.balance-card__label {
+  margin-bottom: 10px;
+  padding-top: 30px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.balance-card__balance {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.balance-card__info {
+  display: flex;
+  gap: 35px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.balance-card__btn {
+  position: absolute;
+  bottom: 14%;
+  right: 23%;
+}/*# sourceMappingURL=BalanceCard.css.map */

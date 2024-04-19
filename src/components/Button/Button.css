@@ -1,0 +1,17 @@
+.btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  height: 35px;
+  background: var(--black);
+  border: none;
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+.btn span {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: var(--gradient_text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=Button.css.map */

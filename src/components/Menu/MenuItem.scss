@@ -1,0 +1,27 @@
+.menu-item {
+    position: relative;
+    &.active {
+        i {
+            color: var(--active);
+        }
+    }
+
+    i {
+        font-size: 24px;
+    }
+    
+    &__dot {
+        --size: 9px;
+        width: var(--size);
+        height: var(--size);
+        border-radius: var(--size);
+        background:  var(--blue);
+        filter: blur(1.5px);
+        margin: 0 auto;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+}

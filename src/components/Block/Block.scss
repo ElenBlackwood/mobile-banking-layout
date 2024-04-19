@@ -1,0 +1,13 @@
+.block {
+    padding: 12px;
+    border-radius: 20px;
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &.big {
+        justify-content: space-between;
+        padding: 23px 36px;
+    }
+}
